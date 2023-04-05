@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #FFFFFF, #FCC8C2, #FFFFFF);
+    margin-bottom: 150px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    font-family: serif;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-family: serif;
+}
+
+header {
+    background-color: #1E1014;
+    margin: 0;
+    padding: 2rem 1.5rem 0 0;
+}
+
+header > img {
+    display: block;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #1E1014;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem gray;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.25rem 4rem 0.25rem 4rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+
+article > p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+.main {
+    background-image: url("/photos/coco-tafoya-R-Us1TGFioQ-unsplash-crop1.jpg");
+    border: solid 1px #1E1014;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    margin: 1rem;
+}
+
+.main a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.main:hover {
+    transform: scale(1.01, 1.01);
+}
+
+.sub {
+    background-color: #FFFFFF;
+    border: solid 1px #1E1014;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    min-height: 15rem;
+    justify-content: center;
+}
+
+h2 ~ img {
+    border: solid 1px #1E1014;
+    width: 80%;
+    height: auto;
+    margin: 1.5rem;
+}
+
+.sub a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.sub:hover {
+    transform: scale(1.01, 1.01);
+}
+
+footer {
+    display: flex;
+    background-color: #1E1014;
+    margin: 0;
+    padding: 2rem;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.5rem 1rem gray;
+}
+
+footer div {
+    flex: 1;
+    color: white;
+}
+
+
+footer img {
+    width: 25%;
+}
